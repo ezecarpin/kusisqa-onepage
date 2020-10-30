@@ -1,0 +1,346 @@
+/*  KUSISQA ONE PAGE  */
+body{
+	background-image:url("imagenes/fondo2.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+header, section, footer{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+		height: 31px;
+}
+
+
+#menu{
+	margin-left: 100px;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	border-top: 1px solid #00f;
+	border-radius: 25px 25px 0 0;
+	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+}
+#menu li a:hover{
+	background-color: #00f;
+	color: #fff;
+}
+#menu li a i{
+	padding-right: 10px;
+}
+
+
+#inicio{
+	border: 1px solid #00f;
+	border-radius: 25px 25px 0 0;
+	height: 500px;
+	background-color: #fff;
+	margin-bottom: 5px;
+	background-image: url("imagenes/logo.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+#kusisqa{
+	border: 1px solid #00f;
+	padding-top: 30px;
+	height: 680px;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#kusisqa img{
+	margin: auto;
+	width: 700px;
+	height: 300px;
+}
+#kusisqa-texto{
+	width: 80%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#tienda{
+	margin-bottom: 10px;
+	border: 1px solid #00f;
+	height: 700px;
+	background-color: #fff;
+}
+#tienda h2{
+	padding-top: 10px;
+	font-size: 34px;
+	text-align: center;
+}
+
+#tienda img{
+	width: 400px;
+}
+.item {
+	display: none;
+	padding: 10px 40px;
+	animation: aparecer 1.2s forwards;
+}
+
+.item:first-child {
+	display: flex;
+}
+.info{
+	padding: 20px;
+}
+.info p{
+	padding: 20px;
+}
+.arrows{
+	font-size: 20px;
+	text-align: center;
+}
+.arrows div{
+	color: #111;
+	margin: 0 30px;
+	transition: all 0.12s;
+	font-size: 50px;
+}
+.arrows div:hover{
+	color: #555;
+	margin-top: -7px;
+	font-size: 60px;
+}
+
+
+#contacto{
+	border: 1px solid #00f;
+	background-color: #fff;
+	height: 390px;
+	margin-bottom: 20px;
+}
+#contacto h2{
+	padding-top: 20px;
+	text-align: center;
+}
+#contacto ul{
+	padding: 30px;
+	width: 400px;
+	border: 1px solid #111;
+	margin: auto;
+}
+#contacto li{
+	margin-bottom: 5px;
+	list-style: none;
+}
+#contacto input[type = "text" ]{
+	width: 70%;
+	margin-left: 10px;
+}
+#contacto input[type = "email"]{
+	width: 70%;
+	margin-left: 29px;
+}
+#contacto input[type = "number"]{
+	width: 50px;
+	margin-left: 29px;
+}
+#contacto textarea{
+	width: 70%;
+}
+#contacto input[type = "submit"]{
+	width: 100px;
+	margin:auto;
+}
+
+
+footer{
+	height: 250px;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+}
+#footer-text-izq{
+	margin: 40px 50px;
+	float: left;
+}
+#footer-text-izq i{
+	color: #fff;
+	font-size: 24px;
+}
+#footer-text-der{
+	margin: 40px 190px;
+	float: left;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+	body{
+	font-size: 16px;
+}
+header, section, footer{
+	width: 580px;
+}
+header{
+		height: 31px;
+}
+
+
+#menu{
+	margin-left: 0px;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	padding-left: 0px;
+	padding-right: 10px;
+	font-size: 24px;
+}
+#menu li a i{
+	padding-right: 10px;
+}
+
+
+#inicio{
+	height: 300px;
+}
+
+
+#kusisqa{
+	height: 600px;
+}
+#kusisqa img{
+	width: 450px;
+	height: 200px;
+}
+
+
+#tienda{
+	height: 700px;
+}
+#tienda img{
+	width: 320px;
+}
+
+
+footer{
+	height: 250px;
+}
+#footer-text-izq{
+	margin: 30px 40px;
+	float: left;
+}
+#footer-text-izq i{
+	color: #fff;
+	font-size: 24px;
+}
+#footer-text-der{
+	margin: 40px 40px;
+	float: left;
+}
+
+}
+@media all and (max-width: 599px){
+body{
+	font-size: 16px;
+}
+header, section, footer{
+	width: 90%;
+}
+header{
+		height: 25px;
+}
+
+
+#menu{
+	margin-left: 2px;
+}
+#menu li a{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 22px;
+}
+
+#menu li a i{
+	padding-right: 2px;
+}
+
+
+#inicio{
+	height: 300px;
+	box-sizing: border-box;
+}
+
+
+#kusisqa{
+	height: 610px;
+}
+#kusisqa img{
+	width: 310px;
+	height: 170px;
+}
+
+#tienda{
+	margin-bottom: 10px;
+	border: 1px solid #00f;
+	height: 530px;
+	background-color: #fff;
+}
+#tienda h2{
+	font-size: 32px;
+}
+
+#tienda img{
+	width: 220px;
+}
+.item {
+	padding: 10px 40px;
+}
+
+.info{
+	padding: 10px;
+}
+.info p{
+	padding: 10px;
+}
+.arrows div{
+	margin: 0 30px;
+	font-size: 50px;
+}
+
+
+#contacto{
+	height: 390px;
+}
+#contacto h2{
+	padding-top: 10px;
+}
+#contacto ul{
+	padding: 30px;
+	width: 340px;
+	border: 1px solid #111;
+	margin: auto;
+}
+
+footer{
+	height: 250px;
+	font-size: 12px;
+}
+#footer-text-izq{
+	margin: 40px 0 10px 5px;
+}
+#footer-text-izq i{
+	font-size: 16px;
+}
+#footer-text-der{
+	margin: 40px 0 10px 30px;
+}
+
+}
